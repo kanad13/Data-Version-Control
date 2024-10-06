@@ -1,0 +1,11 @@
+dvc
+ipykernel
+nbconvert
+dvc-gs
+dvclive
+pandas
+pyaml
+scikit-learn
+scipy
+matplotlib
+#nb-mermaid
