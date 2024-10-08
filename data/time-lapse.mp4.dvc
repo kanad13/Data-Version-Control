@@ -1,0 +1,5 @@
+outs:
+- md5: 6aed700c0e91b71423bdc0278c505bd5
+  size: 11080296
+  hash: md5
+  path: time-lapse.mp4
