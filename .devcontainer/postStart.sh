@@ -16,7 +16,9 @@ echo "§§§§§§§§§§§§§done executing postStart script§§§§§§§§�
 # https://nbconvert.readthedocs.io/en/latest/config_options.html
 # https://medium.com/learning-machine-learning/present-your-data-science-projects-with-jupyter-slides-75f20735eb0f
 
-# jupyter nbconvert --to slides index.ipynb --reveal-prefix=reveal.js --SlidesExporter.reveal_theme=white  --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_transition=slide --SlidesExporter.reveal_number='c/t' --embed-images && mv index.slides.html index.html
+# jupyter nbconvert --to slides data_version_control.ipynb --reveal-prefix=reveal.js --SlidesExporter.reveal_theme=white  --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_transition=slide --SlidesExporter.reveal_number='c/t' --embed-images
+
+# && mv index.slides.html present.html
 
 # jupyter nbconvert --to slides index.ipynb --reveal-prefix=reveal.js --SlidesExporter.reveal_theme=white  --SlidesExporter.reveal_scroll=True --SlidesExporter.reveal_transition=none --SlidesExporter.reveal_number='c/t' --SlidesExporter.exclude_output=True --embed-images && mv index.slides.html index.html
 
